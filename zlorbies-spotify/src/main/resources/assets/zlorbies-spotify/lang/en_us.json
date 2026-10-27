@@ -1,0 +1,21 @@
+{
+  "key.category.zlorbies-spotify.main": "Spotify Integration Mod",
+  "key.zlorbies-spotify.open": "Open the player",
+  "key.zlorbies-spotify.settings": "Open player settings",
+  "key.zlorbies-spotify.toggle_hud": "Show / hide the player",
+  "key.zlorbies-spotify.play_pause": "Play / pause",
+  "key.zlorbies-spotify.next": "Next song",
+  "key.zlorbies-spotify.previous": "Previous song",
+  "key.zlorbies-spotify.seek_forward": "Seek forward",
+  "key.zlorbies-spotify.seek_back": "Seek back",
+  "key.zlorbies-spotify.volume_up": "Volume up",
+  "key.zlorbies-spotify.volume_down": "Volume down",
+  "key.zlorbies-spotify.mute": "Mute / unmute",
+  "key.zlorbies-spotify.shuffle": "Shuffle on / off",
+  "key.zlorbies-spotify.repeat": "Cycle repeat",
+  "key.zlorbies-spotify.search": "Search songs",
+  "key.zlorbies-spotify.lyrics": "Show / hide lyrics",
+  "key.zlorbies-spotify.my_music": "Open My music (your songs)",
+  "key.zlorbies-spotify.like": "Add / remove the song from Favourites",
+  "key.zlorbies-spotify.share": "Copy the song name to share it"
+}

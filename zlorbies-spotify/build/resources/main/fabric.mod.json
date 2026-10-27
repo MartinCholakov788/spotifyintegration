@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "zlorbies-spotify",
+  "version": "1.4.0",
+  "name": "Spotify Integration Mod",
+  "description": "Music in your Minecraft, with no login: an animated, highly customizable now-playing player for Spotify (or any Windows media player) and a built-in player for your own MP3, OGG, WAV and FLAC files, with equaliser, gapless and crossfade, synced lyrics, queue and playlists, hotkeys, listening stats and achievements. No account, no key and nothing to sign in to.",
+  "authors": ["Zlorbie788"],
+  "icon": "assets/zlorbies-spotify/icon.png",
+  "license": ["MIT", "LGPL-2.1-or-later (bundled JLayer)", "LGPL-3.0-or-later (bundled JOrbis)"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.zlorbie788.spotify.client.SpotifyClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}

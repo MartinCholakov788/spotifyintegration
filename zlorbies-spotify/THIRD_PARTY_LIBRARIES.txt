@@ -1,0 +1,30 @@
+THIRD-PARTY LIBRARIES in Spotify Integration Mod 1.4.0
+======================================================
+
+The mod's own code is MIT licensed (see LICENSE). To play your own MP3 and OGG files without asking you to install anything,
+1.4.0 bundles the SOURCE CODE of two small, free audio decoders. They keep their own licences, which are included in the mod
+jar (folder "licenses") and in the source tree (src/main/resources/licenses).
+
+MP3 decoder: JLayer
+  Where in the source: src/main/java/javazoom/
+  Based on:   JLayer 1.0.x by JavaZOOM and contributors (the file headers name the authors). A reduced copy (decoder only; no
+              player, no GUI) with changes so it reads from the mod's own streams.
+  Licence:    GNU Lesser General Public License, version 2.1 or later; the source files say "version 2 or later"
+              (src/main/resources/licenses/LGPL-2.1-JLayer.txt)
+  Home:       https://www.javazoom.net/javalayer/javalayer.html
+
+OGG Vorbis decoder: JOrbis
+  Where in the source: src/main/java/com/github/trilarion/sound/
+  Based on:   JOrbis, (C) 2000 ymnk / JCraft Inc. (a pure Java Ogg Vorbis decoder), as repackaged in 2015 by Trilarion. Only the
+              decoder was kept; a small reader class was added to feed it.
+  Licence:    GNU Lesser General Public License, version 3 or later (src/main/resources/licenses/LGPL-3.0-JOrbis.txt)
+  Home:       http://www.jcraft.com/jorbis/
+
+What the LGPL means for you
+  The decoders are plain Java source files inside this project, not hidden inside a binary. You may change them or replace them
+  with other versions and rebuild the mod yourself with build.bat; that is what the LGPL asks for. If you pass the mod on, pass
+  this file and the licence texts along with it.
+
+WAV and FLAC playback, the equaliser, the gapless engine and the analysis are the mod's own code (MIT).
+
+The fonts of the player are listed in THIRD_PARTY_FONTS.txt.
